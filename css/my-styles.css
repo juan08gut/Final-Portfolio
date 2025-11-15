@@ -1,0 +1,79 @@
+        * {
+        font-family: lora, serif;
+        font-size: 20px;
+        box-sizing: border-box;
+    }
+
+        body {
+        background-color: rgb(176, 96, 96);
+        }
+        header {
+        background-color:rgb(176, 96, 96);
+        }
+        header h1 {
+        color: #ECE6D3;
+        font-family: 'Lora', serif;
+        font-size: 40px;
+         }
+
+         h2{
+        font-family: 'Lora', serif;
+        
+        }
+
+        article h4 {
+        font-family: 'Lora', serif;
+        text-align: center;}
+
+        section h3 {
+        font-weight: 400px;
+        font-family: 'Lora', serif;
+        }
+
+        article img {
+        max-width: 100%;
+        height:auto;}
+
+        nav, #feature, footer { 
+        margin: 1%;
+        
+        }
+        nav li {
+        display: inline;
+		padding: 0.5em;
+        color: #ECE6D3;
+        background-color: rgb(176, 96, 96);
+        } 
+        p{
+        color: #221712;
+        }
+        .row-color-1 {
+        background:#ECE6D3;
+        } 
+
+        .fa { 
+        color: rgb(176, 96, 96);
+        }
+
+        
+        .w3-teal {
+        background-color: rgb(176, 96, 96) !important;
+        }
+        .fa-facebook-official {
+        color: #ECE6D3;
+        }
+        .fa-instagram {
+        color: #ECE6D3;
+       }
+        .fa-snapchat {
+        color: #ECE6D3;
+        }
+        .fa-twitter{
+        color: #ECE6D3;
+        }
+        .fa-linkedin{
+        color: #ECE6D3;
+        }
+        .w3-text-teal {
+        color: rgb(176, 96, 96) !important;
+        }
