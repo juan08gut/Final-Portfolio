@@ -5,10 +5,10 @@
     }
 
         body {
-        background-color: rgb(176, 96, 96);
+        background-color: rgb(93, 0, 0);
         }
         header {
-        background-color:rgb(176, 96, 96);
+        background-color:rgb(93, 0, 0);
         }
         header h1 {
         color: #ECE6D3;
@@ -16,7 +16,7 @@
         font-size: 40px;
          }
 
-         h2{
+         h2, h3, h4{
         font-family: 'Lora', serif;
         
         }
@@ -52,12 +52,14 @@
         } 
 
         .fa { 
-        color: rgb(176, 96, 96);
+        color: rgb(93, 0, 0);
         }
-
+        #social{
+        color: #ECE6D3
+        }
         
         .w3-teal {
-        background-color: rgb(176, 96, 96) !important;
+        background-color: rgb(93, 0, 0) !important;
         }
         .fa-facebook-official {
         color: #ECE6D3;
@@ -75,10 +77,11 @@
         color: #ECE6D3;
         }
         .w3-text-teal {
-        color: rgb(176, 96, 96) !important;
+        color: rgb(93, 0, 0) !important;
         }
-
-
+        .w3-card-4, .w3-card, .w3-round{
+        background-color: #ECE6D3;
+        }
         /*FOR THE CONTACT PAGE*/
 
         #fcf-form {
@@ -87,7 +90,7 @@
 
 .fcf-body {
     margin: 0;
-    font-family: -apple-system, Arial, sans-serif;
+    font-family: -apple-system, 'Lora', serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -204,21 +207,19 @@ label.fcf-label {
 }
 
 .fcf-btn-primary {
-    color: #fff;
-    background-color: #007bff;
-    border-color: #007bff;
+    color: #ECE6D3;
+background-color: #5d0000;
 }
 
 .fcf-btn-primary:hover {
     color: #fff;
-    background-color: #0069d9;
-    border-color: #0062cc;
+    background-color: #843030;
 }
 
 .fcf-btn-primary:focus, .fcf-btn-primary.focus {
     color: #fff;
-    background-color: #0069d9;
-    border-color: #0062cc;
+    background-color: #843030;
+    border-color: #843030;
     box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
 }
 
@@ -241,3 +242,151 @@ label.fcf-label {
 input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block {
     width: 100%;
 }
+
+/* --- HAMBURGER MENU STYLES --- */
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(93, 0, 0); 
+}
+
+.topnav a {
+    color: #ECE6D3;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+}
+
+.topnav a.active {
+    color: #ECE6D3;
+}
+
+#myLinks {
+    display: none;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    background-color: rgb(93, 0, 0); 
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.topnav a.icon {
+    background: none;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav a:hover {
+    background-color: rgb(119, 51, 51);
+    color: #ECE6D3;
+}
+
+/* When the screen is larger than 600px, display the full navigation and hide the icon */
+@media screen and (min-width: 600px) {
+    .topnav a {
+        float: left;
+        display: block;
+    }
+    .topnav a.icon {
+        display: none;
+    }
+    #myLinks {
+        display: block !important; /* Force display for desktop */
+        position: static;
+        background-color: transparent;
+        box-shadow: none;
+        width: auto;
+        float: right;
+    }
+    #myLinks a {
+        float: left;
+        padding: 14px 16px;
+        text-align: center;
+    }
+}
+
+/* --- SLIDESHOW STYLES  --- */
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #ECE6D3;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background with a little opacity */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,1);
+}
+
+/* Caption text */
+.text {
+  color: #ECE6D3;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0,0,0,0.5);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active-dot, .dot:hover {
+  background-color: rgb(176, 96, 96);
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.fa-bars { 
+        color: #ECE6D3;
+        }
