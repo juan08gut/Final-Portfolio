@@ -283,7 +283,6 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     color: #ECE6D3;
 }
 
-/* When the screen is larger than 600px, display the full navigation and hide the icon */
 @media screen and (min-width: 600px) {
     .topnav a {
         float: left;
@@ -293,7 +292,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
         display: none;
     }
     #myLinks {
-        display: block !important; /* Force display for desktop */
+        display: block !important; 
         position: static;
         background-color: transparent;
         box-shadow: none;
@@ -309,14 +308,13 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 
 /* --- SLIDESHOW STYLES  --- */
 
-/* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
 
-/* Hide the images by default */
+
 .mySlides {
   display: none;
 }
@@ -338,13 +336,11 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background with a little opacity */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,1);
 }
@@ -361,7 +357,6 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
   background-color: rgba(0,0,0,0.5);
 }
 
-/* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -377,7 +372,6 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
   background-color: rgb(176, 96, 96);
 }
 
-/* Fading animation */
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
