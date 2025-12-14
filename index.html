@@ -1,94 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>J.G Designs</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <link rel="stylesheet" href="css/my-styles.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="script.js"></script>
-    </head>
-    <body>
-        <div>
-            <header class="w3-container">
-                    <nav class="topnav w3-display">
-                    <a href="index.html" class="active"> Juan Gutierrez</a>
-                    <!-- Navigation links -->
-                    <div id="myLinks">
-                        <a href="index.html">Home</a>
-                        <a href="gallery.html">Gallery</a>
-                        <a href="about.html">About Me</a>
-                        <a href="resume.html">Resume</a>
-                        <a href="contact.html">Contact</a>
-                    </div>
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                        <i class="fa fa-bars"></i>
-                    </a>
-                </nav>
-            </header>                
-            <!-- Slideshow Gallery Section -->
-            <section class="w3-container row-color-1 w3-padding-64">
-                <h3 class="w3-center"></h3>
-
-                <!-- Slideshow container -->
-                <div class="slideshow-container">
-                    <div class="mySlides fade">
-                        <div class="w3-center">
-                            <h4>Adoption Campaign</h4>
-                            <img src="assets/Animal-Adoption-Poster-72dpi.jpg" alt="Animal Adoption Campaign" style="width:100%; max-width: 600px; height: auto;">
-                            <div class="text">Project 1 of 5</div>
-                        </div>
-                    </div>
-                    <div class="mySlides fade">
-                        <div class="w3-center">
-                            <h4>Animal Foundation Poster</h4>
-                            <img src="assets/Animal-Foundation-Poster-72dpi.jpg" alt="Animal Foundation Poster" style="width:100%; max-width: 600px; height: auto;">
-                            <div class="text">Project 2 of 5</div>
-                        </div>
-                    </div>
-                    <div class="mySlides fade">
-                        <div class="w3-center">
-                            <h4>Reggaeton Concert Poster</h4>
-                            <img src="assets/Blessds-Reggaeton-Concert-72dpi.jpg" alt="Blessd's Reggaeton Concert" style="width:100%; max-width: 600px; height: auto;">
-                            <div class="text">Project 3 of 5</div>
-                        </div>
-                    </div>
-
-                    <div class="mySlides fade">
-                        <div class="w3-center">
-                            <h4>Reggae Concert Poster</h4>
-                            <img src="assets/Reggae-Concert-Poster-72dpi.jpg" alt="Reggae event" style="width:100%; max-width: 600px; height: auto;">
-                            <div class="text">Project 4 of 5</div>
-                        </div>
-                    </div>     
-                    <div class="mySlides fade">
-                        <div class="w3-center">
-                            <h4>Colombian Postcard</h4>
-                            <img src="assets/Colombian-Postcard-72dpi.jpg" alt="Colombian Postcard" style="width:100%; max-width: 600px; height: auto;">
-                            <div class="text">Project 5 of 5</div>
-                        </div>
-                    </div>
-                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+<head>
+    <title>J.G Designs</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/my-styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header class="w3-container">
+        <nav class="topnav">
+            <a href="index.html" class="active"> Juan Gutierrez</a>
+            <div id="myLinks">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Me</a>
+                <a href="resume.html">Resume</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    </header>                
+    <section class="w3-container row-color-1 w3-padding-64">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="w3-center">
+                    <h4>Adoption Campaign</h4>
+                    <img src="assets/Animal-Adoption-Poster-72dpi.jpg" alt="Animal Adoption Campaign" style="width:100%; max-width: 600px; height: auto;">
+                    <div class="text">Project 1 of 5</div>
                 </div>
-                <br>
-                <div style="text-align:center">
-                    <span class="dot" onclick="currentSlide(1)"></span>
-                    <span class="dot" onclick="currentSlide(2)"></span>
-                    <span class="dot" onclick="currentSlide(3)"></span>
-                    <span class="dot" onclick="currentSlide(4)"></span>
-                    <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+            <div class="mySlides fade">
+                <div class="w3-center">
+                    <h4>Animal Foundation Poster</h4>
+                    <img src="assets/Animal-Foundation-Poster-72dpi.jpg" alt="Animal Foundation Poster" style="width:100%; max-width: 600px; height: auto;">
+                    <div class="text">Project 2 of 5</div>
                 </div>
-            </section> 
+            </div>
+            <div class="mySlides fade">
+                <div class="w3-center">
+                    <h4>Reggaeton Concert Poster</h4>
+                    <img src="assets/Blessds-Reggaeton-Concert-72dpi.jpg" alt="Blessd's Reggaeton Concert" style="width:100%; max-width: 600px; height: auto;">
+                    <div class="text">Project 3 of 5</div>
+                </div>
+            </div>
+            <div class="mySlides fade">
+                <div class="w3-center">
+                    <h4>Reggae Concert Poster</h4>
+                    <img src="assets/Reggae-Concert-Poster-72dpi.jpg" alt="Reggae event" style="width:100%; max-width: 600px; height: auto;">
+                    <div class="text">Project 4 of 5</div>
+                </div>
+            </div>     
+            <div class="mySlides fade">
+                <div class="w3-center">
+                    <h4>Colombian Postcard</h4>
+                    <img src="assets/Colombian-Postcard-72dpi.jpg" alt="Colombian Postcard" style="width:100%; max-width: 600px; height: auto;">
+                    <div class="text">Project 5 of 5</div>
+                </div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
-        <footer class="w3-container w3-teal w3-center w3-margin-top">
-            <p id="social"> Find me on social media</p>
-            <i class="fa fa-facebook-official w3-hover-opacity"></i>
-            <i class="fa fa-instagram w3-hover-opacity"></i>
-            <i class="fa fa-snapchat w3-hover-opacity"></i>
-            <i class="fa fa-twitter w3-hover-opacity"></i>
-            <i class="fa fa-linkedin w3-hover-opacity"></i>
-        </footer>
-    </body>
+        <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+    </section> 
+    <footer class="w3-container w3-teal w3-center w3-margin-top">
+        <p id="social">Find me on social media</p>
+        <a href="https://www.facebook.com/juandavid.gutierrezvargas.7" target="_blank" class="w3-hover-opacity">
+            <i class="fa fa-facebook-official"></i>
+        </a>
+        <a href="https://www.instagram.com/juan08gut/" target="_blank" class="w3-hover-opacity">
+            <i class="fa fa-instagram"></i>
+        </a>
+        <a href="https://twitter.com/JuanG864773" target="_blank" class="w3-hover-opacity">
+            <i class="fa fa-twitter"></i>
+        </a>
+    </footer>
+</body>
 </html>

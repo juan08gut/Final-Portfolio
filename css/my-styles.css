@@ -2,7 +2,7 @@
         font-family: lora, serif;
         font-size: 20px;
         box-sizing: border-box;
-    }
+     }
 
         body {
         background-color: rgb(93, 0, 0);
@@ -12,11 +12,14 @@
         }
         header h1 {
         color: #ECE6D3;
-        font-family: 'Lora', serif;
-        font-size: 40px;
+        font-family: 'Lora', bold, serif;
+        font-size: 30px;
          }
-
-         h2, h3, h4{
+        h2{
+        font-family: 'Lora', serif;
+        font-size: 25px;
+        }
+        h3, h4{
         font-family: 'Lora', serif;
         
         }
@@ -45,7 +48,8 @@
         background-color: rgb(176, 96, 96);
         } 
         p{
-        color: #221712;
+        color: #221712; font-family: "Roboto", sans-serif;
+        font-size: 16px;
         }
         .row-color-1 {
         background:#ECE6D3;
@@ -82,7 +86,6 @@
         .w3-card-4, .w3-card, .w3-round{
         background-color: #ECE6D3;
         }
-        /*FOR THE CONTACT PAGE*/
 
         #fcf-form {
     display:block;
@@ -164,12 +167,6 @@ label.fcf-label {
     color: #545b62;
     text-decoration: underline;
 }
-
-.fcf-credit a:hover {
-    color: #0056b3;
-    text-decoration: underline;
-}
-
 .fcf-btn {
     display: inline-block;
     font-weight: 400;
@@ -195,17 +192,6 @@ label.fcf-label {
         transition: none;
     }
 }
-
-.fcf-btn:hover {
-    color: #212529;
-    text-decoration: none;
-}
-
-.fcf-btn:focus, .fcf-btn.focus {
-    outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-}
-
 .fcf-btn-primary {
     color: #ECE6D3;
 background-color: #5d0000;
@@ -243,8 +229,6 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     width: 100%;
 }
 
-/* --- HAMBURGER MENU STYLES --- */
-
 .topnav {
     overflow: hidden;
     background-color: rgb(93, 0, 0); 
@@ -256,10 +240,6 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     text-decoration: none;
     font-size: 20px;
     display: block;
-}
-
-.topnav a.active {
-    color: #ECE6D3;
 }
 
 #myLinks {
@@ -306,20 +286,16 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     }
 }
 
-/* --- SLIDESHOW STYLES  --- */
-
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
 
-
 .mySlides {
   display: none;
 }
 
-/* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -345,7 +321,6 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
   background-color: rgba(0,0,0,1);
 }
 
-/* Caption text */
 .text {
   color: #ECE6D3;
   font-size: 15px;
@@ -384,3 +359,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 .fa-bars { 
         color: #ECE6D3;
         }
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
