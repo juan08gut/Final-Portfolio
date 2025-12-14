@@ -352,13 +352,27 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
   animation-duration: 1.5s;
 }
 
+.profile-card {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 15px;
+    border: 8px solid #bbb;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    display: block;
+    margin: 0 auto;
+}
+
+.profile-card:hover {
+    transform: scale(1.05);
+}
+
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
 }
 .fa-bars { 
         color: #ECE6D3;
-        }
+}
 footer a {
     text-decoration: none;
     color: inherit;
